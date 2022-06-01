@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
 const weather = () => {
   console.log()
   return (
-      <p>This is a webpage to be hosted on AWS</p>
+      <h1>This is a webpage to be hosted on AWS</h1>
   );
 }
 export default weather
